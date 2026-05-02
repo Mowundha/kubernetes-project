@@ -22,3 +22,13 @@ jobs:
 
     - name: Push docker image
       run: docker push ${{secrets.USERNAME}}/user-service-1.0
+
+    # - name: Build docker image
+    #   run: docker build -t ${{secrets.USERNAME}}/product-service-1.0 ./product-service
+
+    # - name : Push Docker Image
+    #   run: docker push ${{secrets.USERNAME}}/product-service-1.0
+      
+
+
+
